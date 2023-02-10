@@ -12,8 +12,6 @@ dtc:
     version: 1.4.7-3ubuntu2
 west:
     version: 0.13.1
-gn:
-    version: e55664a01f6ee92762210d0c01b13552f8117e11
 nanopb:
     version: 0.4.4
 zephyr-sdk:
@@ -24,9 +22,5 @@ zephyr-sdk:
         - x86_64-zephyr-elf
         - arm-zephyr-eabi
         - riscv64-zephyr-elf
-ccache:
-    version: 3.7.7
-dfu_util:
-    version: 0.9-1
 doxygen:
     version: 1.9.4
