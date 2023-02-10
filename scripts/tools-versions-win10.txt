@@ -1,21 +1,21 @@
 python:
-    version: 3.8.2
+	version: 3.8.2
 git:
-    version: 1:2.25.1
+	version: 2.26.2.windows.1
 cmake:
-    version: 3.20.5
+	version: 3.20.5
 ninja:
-    version: 1.9.0.post1
+	version: 1.9.0
 gperf:
-    version: 3.1
+	version: 3.1
 dtc:
-    version: 1.4.7-3ubuntu2
+	version: 1.4.7-1
 west:
-    version: 0.13.1
+	version: 0.13.1
 nanopb:
-    version: 0.4.4
+	version: 0.4.4
 zephyr-sdk:
-    version: 0.15.2
+	version: 0.14.1
     features:
     architectures: # https://github.com/zephyrproject-rtos/sdk-ng/releases/tag/v0.15.2
         - aarch64-zephyr-elf
@@ -23,4 +23,4 @@ zephyr-sdk:
         - arm-zephyr-eabi
         - riscv64-zephyr-elf
 doxygen:
-    version: 1.9.4
+	version: 1.9.2
